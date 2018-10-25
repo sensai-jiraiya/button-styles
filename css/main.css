@@ -11,3 +11,39 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+div ul{
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+div a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: 1.125rem;
+  margin-bottom: .5em;
+}
+
+.btn:hover {
+  background-color: #000;
+
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: 1.125rem;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}

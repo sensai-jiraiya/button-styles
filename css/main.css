@@ -22,6 +22,7 @@ div {
   border-width: 3px;
   border-style: solid;
   border-color: #333;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -49,4 +50,22 @@ div {
 .btn-ghost:hover {
   background-color: #000;
   color: #fff
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  border-color: #933;
+}
+
+.btn-small {
+  font-size:.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }

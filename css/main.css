@@ -19,4 +19,12 @@ div {
   background-color: #333;
   color: #fff;
   font-size: 1.125rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #333;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  border-color: #000;
 }

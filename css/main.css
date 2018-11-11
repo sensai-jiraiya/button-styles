@@ -6,3 +6,17 @@ html {
 *,*::before, *::after {
   box-sizing: inherit;
 }
+
+div {
+  padding: .5rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}

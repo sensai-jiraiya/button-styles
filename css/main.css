@@ -26,6 +26,7 @@ div {
 .btn-prime {
   background-color: #333;
 }
+
 .btn:hover {
   background-color: #ccc;
 }
@@ -41,6 +42,7 @@ div {
 .btn-ghost {
   border-color: #000;
   border-style: solid;
+  color: #000;
 }
 
 .btn-ghost:hover {

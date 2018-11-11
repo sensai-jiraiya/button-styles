@@ -7,6 +7,15 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  margin: 0;
+
+}
+
+body {
+  margin: 0;
+}
+
 div {
   padding: .5rem;
   text-align: center;
@@ -81,109 +90,10 @@ div a{
 .btn-small {
   color: #fff;
   background-color: #333;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   font-size: .875rem;
   margin-bottom: .75em;
 }
 
 .btn-small:hover {
   background-color: #000;
-
-}
-.btn-small-subtle {
-  color: #fff;
-  background-color: #ccc;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: .875rem;
-  margin-bottom: .75em;
-}
-
-.btn-small-subtle:hover {
-  background-color: #666;
-}
-
-.btn-small-ghost {
-  color: #000;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #000;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: .875rem;
-  margin-bottom: .75em;
-}
-
-.btn-small-ghost:hover {
-  background-color: #666;
-  border-color: #666;
-}
-
-.btn-small-warning {
-  color: #fff;
-  background-color: #f33;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: .875rem;
-  margin-bottom: .75em;
-}
-
-.btn-small-warning:hover {
-  background-color: #933;
-}
-
-.btn-big {
-  color: #fff;
-  background-color: #333;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: 1.5rem;
-  margin-bottom: .75em;
-}
-
-.btn-big:hover {
-  background-color: #000;
-}
-
-.btn-big-subtle {
-  color: #fff;
-  background-color: #ccc;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: 1.5rem;
-  margin-bottom: .75em;
-}
-
-.btn-big-subtle:hover {
-  background-color: #666;
-}
-
-.btn-big-ghost {
-  color: #000;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #000;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: 1.5rem;
-  margin-bottom: .75em;
-}
-
-.btn-big-ghost:hover {
-  background-color: #666;
-  border-color: #666;
-}
-
-.btn-big-warning {
-  color: #fff;
-  background-color: #f33;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  font-size: 1.5rem;
-  margin-bottom: .75em;
-}
-
-.btn-big-warning:hover {
-  background-color: #933;
 }

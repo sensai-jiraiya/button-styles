@@ -3,7 +3,7 @@ html {
   font: normal 100%/1.5 sans-serif;
 }
 
-*,*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -16,40 +16,36 @@ div {
   display: inline-block;
   padding: .4em .75em .3em;
   border-radius: 8px;
-  background-color: #333;
   color: #fff;
   font-size: 1.125rem;
   border-width: 3px;
   border-style: solid;
-  border-color: #333;
   text-decoration: none;
 }
 
+.btn-prime {
+  background-color: #333;
+}
 .btn:hover {
   background-color: #ccc;
-  border-color: #000;
 }
 
 .btn-subtle {
   background-color: #ccc;
-  border-color: #000;
 }
 
 .btn-subtle:hover {
   background-color: #000;
-  border-color: #000;
 }
 
 .btn-ghost {
-  background-color: #000;
   border-color: #000;
-  color: #000;
   border-style: solid;
 }
 
 .btn-ghost:hover {
   background-color: #000;
-  color: #fff
+  color: #fff;
 }
 
 .btn-warning {
@@ -63,7 +59,7 @@ div {
 }
 
 .btn-small {
-  font-size:.875rem;
+  font-size: .875rem;
 }
 
 .btn-big {

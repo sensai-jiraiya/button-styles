@@ -28,3 +28,25 @@ div {
   background-color: #ccc;
   border-color: #000;
 }
+
+.btn-subtle {
+  background-color: #ccc;
+  border-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-ghost {
+  background-color: #000;
+  border-color: #000;
+  color: #000;
+  border-style: solid;
+}
+
+.btn-ghost:hover {
+  background-color: #000;
+  color: #fff
+}
